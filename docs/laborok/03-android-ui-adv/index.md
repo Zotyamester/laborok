@@ -215,7 +215,7 @@ Jelenleg így néz ki az alkalmazásunk:
 
 Azt szeretnénk, hogy a képernyő tetején legyen egy `ActionBar` az alkalmazás nevével és egy törlési opcióval, vagy akár egy legördülő menüvel. Mint feljebb láttuk, ehhez a megvalósításhoz, nagyon jól alkalmazható a `Scaffold` *Composable*, ugyanis ennek van egy *topBar* attribútuma, aminek könnyen adhatunk egy ilyen `ActionBar`-t. 
 
-Hozzunk létre egy új *package*-et a már meglévő `ui` csomagban `view` néven, majd ezen belül egy új *Kotlin* classt `TopBar` néven. Töltsük föl a fájlt az alábbi kóddal:
+Hozzunk létre egy új *package*-et a már meglévő `ui` csomagban `view` néven, majd ezen belül egy új *Kotlin* fájlt `TopBar` néven. Töltsük föl a fájlt az alábbi kóddal:
 
 ```kotlin
 package hu.bme.aut.android.androidwallet.ui.view
